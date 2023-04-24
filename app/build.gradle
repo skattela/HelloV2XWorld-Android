@@ -56,7 +56,7 @@ dependencies {
     debugApi(name:'v2xsdk-release', ext:'aar')
     releaseApi(name:'v2xsdk-release', ext:'aar')
     implementation fileTree(include: ['*.jar', '*.aar'], dir: 'libs')
-    implementation 'org.osmdroid:osmdroid-android:6.1.14'
+    implementation 'org.osmdroid:osmdroid-android:6.1.16'
     implementation 'com.google.code.gson:gson:2.10.1'
     // MQTT libs
     implementation group: 'org.apache.commons', name: 'commons-lang3', version: '3.12.0'
